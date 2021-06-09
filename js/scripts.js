@@ -11,7 +11,7 @@ function pintToCup(number1) {
 }
 
 function quartToGallon(number1) {
-  return number1 /4;
+  return number1 / 4;
 }
 
 function pintToQuart(number1) {
@@ -24,7 +24,7 @@ function cupToPint(number1) {
 function gallonToPint(number1) {
   return number1 * 8;
 }
-function gallonToCups(number1) {
+function gallonToCup(number1) {
   return number1 * 16;
 }
 
@@ -32,4 +32,20 @@ function pintToGallon(number1) {
   return number1 / 8;
 }
 
-function 
+function cupToGallon(number1) {
+  return number1 / 16;
+}
+
+function quartToCup(number1) {
+  return number1 * 4;
+}
+
+function cupToQuart(number1) {
+  return number1 / 4;
+}
+
+const number1 = parseInt(prompt("Enter a number you want to convert:"));
+
+const result = gallonToQuart(number1);
+
+alert(result);
